@@ -1,0 +1,301 @@
+@media only screen and (min-width:1440px) {
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+
+    @font-face {
+        font-family: 'Kumbh Sans';
+        src: url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+    }
+
+    :root {
+        --VeryDarkDesaturatedBlue: hsl(238, 29%, 16%);
+        --SoftRed: hsl(14, 88%, 65%);
+        --SoftViolet: hsl(273, 75%, 66%);
+        --SoftBlue: hsl(240, 73%, 65%);
+        --VeryDarkGrayishBlue: hsl(237, 12%, 33%);
+        --DarkGrayishBlue: hsl(240, 6%, 50%);
+        --LightGrayishBlue: hsl(240, 5%, 91%);
+    }
+
+    body {
+        font-family: 'Kumbh Sans', sans-serif;
+        font-size: 0.9375rem;
+    }
+
+    section {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to bottom, var(--SoftViolet), var(--SoftBlue));
+    }
+
+    .container {
+        width: 65%;
+        height: 65%;
+        display: flex;
+        position: relative;
+        background-color: #fff;
+        border-radius: 25px;
+        gap: 0 30px;
+        overflow: hidden;
+    }
+
+
+    .container::before {
+        content: "";
+        background-image: url("../images/illustration-woman-online-mobile.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 500px;
+        width: 510px;
+        height: 450px;
+        position: absolute;
+        top: 63px;
+        left: -95px;
+        z-index: 2;
+        margin: 0 auto;
+    }
+
+    .img-2 {
+        position: absolute;
+        top: 408px;
+        z-index: 3;
+        left: 227px;
+    }
+
+    .container > .containerOne {
+        width: 50%;
+        height: 100%;
+    }
+
+    .container > .containerOne > .img {
+        position: absolute;
+        top: -75px;
+        left: -300px;
+    }
+
+
+    .container > .containerTwo {
+        width: 50%;
+        height: 100%;
+    }
+
+    .container > .containerTwo > .subContainer {
+        width: 81%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .container > .containerTwo > .subContainer > .heading {
+        font-weight: 700;
+        font-size: 1.4rem;
+    }
+
+
+    .container > .containerTwo > .subContainer > .subContainers {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0;
+    }
+
+    /* sub - containerOne */
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerOne {
+        width: 100%;
+        /* height: 100px; */
+        /* height: 100px - js; */
+        border-bottom: 1px solid var(--LightGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerOne > .subContainerOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerOne > .subContainerOne > .para {
+        font-weight: 400;
+        font-size: 0.8125rem;
+        display: inline-block;
+        margin-left: 10px;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerOne > .subContainerOne > .img {
+        display: inline-block;
+        margin-left: 80px;
+        transform: rotate(180deg);
+    }
+
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerOne > .subContainerTwo {
+        font-size: 0.8125rem;
+        width: 100%;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+        /* display: none; */
+    }
+
+    /* sub - containerTwo */
+
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerTwo {
+        width: 100%;
+        /* height: 100px; */
+        border-bottom: 1px solid var(--LightGrayishBlue);
+
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerTwo > .subContainerOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerTwo > .subContainerOne > .para {
+        font-weight: 400;
+        font-size: 0.8125rem;
+        display: inline-block;
+        margin-left: 12px;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerTwo > .subContainerOne > .img {
+        display: inline-block;
+        margin-left: 80px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerTwo > .subContainerTwo {
+        font-size: 0.8125rem;
+        display: none;
+        width: 100%;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    /* sub - containerThree */
+
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerThree {
+        width: 100%;
+        /* height: 100px; */
+        border-bottom: 1px solid var(--LightGrayishBlue);
+
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerThree > .subContainerOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerThree > .subContainerOne > .para {
+        font-weight: 400;
+        font-size: 0.8125rem;
+        display: inline-block;
+        margin-left: 12px;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerThree > .subContainerOne > .img {
+        display: inline-block;
+        margin-left: 142px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerThree > .subContainerTwo {
+        font-size: 0.8125rem;
+        display: none;
+        width: 100%;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+
+    /* sub - containerFour */
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFour {
+        width: 100%;
+        border-bottom: 1px solid var(--LightGrayishBlue);
+
+        /* height: 100px; */
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFour > .subContainerOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFour > .subContainerOne > .para {
+        font-weight: 400;
+        font-size: 0.8125rem;
+        display: inline-block;
+        margin-left: 12px;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFour > .subContainerOne > .img {
+        display: inline-block;
+        margin-left: 138px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFour > .subContainerTwo {
+        font-size: 0.8125rem;
+        display: none;
+        width: 100%;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    /* sub - containerFive */
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFive {
+        width: 100%;
+        border-bottom: 1px solid var(--LightGrayishBlue);
+
+        /* height: 100px; */
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFive > .subContainerOne {
+        width: 100%;
+        height: 35px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFive > .subContainerOne > .para {
+        font-weight: 400;
+        font-size: 0.8125rem;
+        display: inline-block;
+        margin-left: 12px;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFive > .subContainerOne > .img {
+        display: inline-block;
+        margin-left: 80px;
+        margin-left: 104px;
+    }
+
+    .container > .containerTwo > .subContainer > .subContainers > .containerFive > .subContainerTwo {
+        font-size: 0.8125rem;
+        display: none;
+        width: 100%;
+        font-weight: 400;
+        color: var(--VeryDarkGrayishBlue);
+    }
+
+
+
+
+
+
+
+
+
+
+}
