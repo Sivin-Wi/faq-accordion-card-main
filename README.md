@@ -24,8 +24,8 @@
 
 ### Links 🔗
 
-- Solution URL: [page]()
-- Live Site URL: [page]()
+- Solution URL: [page](https://www.frontendmentor.io/solutions/build-with-flexbox-7XinTuKB0a)
+- Live Site URL: [page](https://sivin-wi.github.io/faq-accordion-card-main/)
 
 ## My process
 
@@ -34,7 +34,7 @@
 - Semantic HTML5 markup
 - FlexBox
 - Media Queries
-- Grid
+
 
 
 ### What I learned 📕
@@ -42,7 +42,7 @@
 1. Flex Box
 2. Semantic Elements  
 3. Media Queries
-4. Grid
+
 
 ### Useful resources 💻
 
