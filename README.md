@@ -17,7 +17,7 @@
 ## Overview ✨
 
 ### Screenshot 📷
-![](./screenshot/Screenshot%202023-11-10%20at%2000-31-18%20Frontend%20Mentor%20Interactive%20rating%20component.png)
+![](./screenshot/Screenshot%202023-11-25%20at%2020-52-30%20Frontend%20Mentor%20FAQ%20Accordion%20Card.png)
 
 
 
